@@ -1,0 +1,479 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <meta content="width=device-width, initial-scale=1.0" name="viewport">
+
+  <title>Company</title>
+  <meta content="" name="description">
+  <meta content="" name="keywords">
+
+  <!-- Favicons -->
+  
+  <link href="assets/img/apple-touch-icon.png" rel="apple-touch-icon">
+
+  <!-- Google Fonts -->
+  <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i,700,700i|Roboto:300,300i,400,400i,500,500i,600,600i,700,700i|Poppins:300,300i,400,400i,500,500i,600,600i,700,700i" rel="stylesheet">
+
+  <!-- Vendor CSS Files -->
+  <link href="assets/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+  <link href="assets/vendor/icofont/icofont.min.css" rel="stylesheet">
+  <link href="assets/vendor/boxicons/css/boxicons.min.css" rel="stylesheet">
+  <link href="assets/vendor/animate.css/animate.min.css" rel="stylesheet">
+  <link href="assets/vendor/venobox/venobox.css" rel="stylesheet">
+  <link href="assets/vendor/owl.carousel/assets/owl.carousel.min.css" rel="stylesheet">
+  <link href="assets/vendor/aos/aos.css" rel="stylesheet">
+  <link href="assets/vendor/remixicon/remixicon.css" rel="stylesheet">
+
+  <!-- Template Main CSS File -->
+  <link href="assets/css/style.css" rel="stylesheet">
+
+</head>
+
+<body>
+
+   <!-- ======= Header ======= -->
+ <header id="header" class="fixed-top">
+    <div class="container-fluid d-flex align-items-center">
+      <!-- <h1 class="logo mr-auto">
+        <a href="index.html"><span>Com</span>pany</a></h1> -->
+        <img src="assets/img/logo.png" class="img-fluid logo mr-auto">
+        <nav class="nav-menu d-none d-lg-block">
+          <ul>
+            <li class="active"><a href="index.html" class="pt-2">Home</a></li>
+            <li><a href="about.html" class="pt-2">About Us</a></li>
+            <li class="drop-down">
+              <a class="pt-2 dropdown-toggle ">Product</a>
+              <ul class="dropdown-menu">
+                <li><a href="video.html">Encrypt Video</a></li>
+              </ul>
+            </li>
+            <li class="hide"><a href="information.html" class="pt-2">Release Note</a></li>
+            <li class="hide"><a href="pricing.html" class="pt-2">Pricing</a></li>
+            <li><a href="FAQ.html" class="pt-2">FAQ</a></li>
+            <li class="hide"><a href="blog.html" class="pt-2">Blog</a></li>
+            <li><a href="contact.html" class="pt-2">Contact</a></li>
+            <li class="hide"><a href="Downloads.html" class="pt-2">Download</a></li>
+            <li class="hide"><a href="#" data-toggle="modal" data-target="#loginModal" class="btn-account ">Sign In</a></li>
+            <li class="hide"><a href="assets/pdf/sample.pdf" download class="btn-account getPdf">Get PDF</a></li>
+
+          </ul>
+        </nav><!-- .nav-menu -->
+    </div>
+ </header>
+ <!-- End Header -->
+
+  <!-- ======= Modal section ======= -->
+  <div class="modal fade show" id="loginModal" tabindex="-1" role="dialog">
+    <div class="modal-dialog modal-dialog-centered modal-lg modal-login mt-5" role="document">
+        <div class="modal-content">
+          <div class="container-fluid">
+             <div class="row">
+
+                <div class="col-md-12 col-lg-12 p-0">
+                    <div class="wrap d-md-flex">
+                        <div class="text-wrap p-4 p-lg-6 text-center d-flex align-items-center order-md-last bg-Theme">
+                            <div class="text w-100">
+                              <button type="button" class="close" data-dismiss="modal" aria-hidden="true">X</button>
+                                <h2>Welcome to login</h2>
+                                <p>Don't have an account?</p>
+                                <a href="#" data-toggle="modal" data-target="#SignUpModal" class="btn btn-white btn-outline-white">Sign Up</a>
+                            </div>
+                  </div>
+                        <div class="login-wrap p-4 p-lg-6 bg-white">
+                    <div class="d-flex">
+                        <div class="w-100">
+                            <h3 class="mb-4">Sign In</h3>
+                        </div>
+                                <div class="w-100">
+                                    <p class="social-media d-flex justify-content-end">
+                                        <a href="#" class="social-icon d-flex align-items-center justify-content-center"><span class="fa fa-facebook"></span></a>
+                                        <a href="#" class="social-icon d-flex align-items-center justify-content-center"><span class="fa fa-twitter"></span></a>
+                                    </p>
+                                </div>
+                    </div>
+                            <form action="#" class="signin-form">
+                        <div class="form-group mb-3">
+                            <!-- <label class="label" for="name">Username</label> -->
+                            <input type="text" class="form-control" placeholder="Username" required>
+                        </div>
+                    <div class="form-group mb-3">
+                        <!-- <label class="label" for="password">Password</label> -->
+                      <input type="password" class="form-control" placeholder="Password" required>
+                    </div>
+                    <div class="form-group">
+                        <button type="submit" class="form-control btn btn-primary submit px-3">Sign In</button>
+                    </div>
+                    <div class="form-group d-md-flex">
+                      <div class="w-50 text-left">
+                        <label class="checkbox-wrap checkbox-primary mb-0">Remember Me
+                          <input type="checkbox" checked>
+                          <span class="checkmark"></span>
+                        </label>
+                      </div>
+                      <div class="w-50 text-md-right">
+                          <a href="#">Forgot Password</a>
+                      </div>
+                    </div>
+                  </form>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        </div>
+    </div>
+  </div>
+  <div class="modal fade show" id="SignUpModal" tabindex="-1" role="dialog">
+    <div class="modal-dialog modal-dialog-centered modal-lg modal-SignUp mt-5" role="document">
+        <div class="modal-content">
+          <div class="container-fluid">
+             <div class="row">
+
+                <div class="col-md-12 col-lg-12 p-0">
+                    <div class="wrap d-md-flex">
+                        <div class="text-wrap p-4 p-lg-6 text-center d-flex align-items-center order-md-last bg-Theme">
+                            <div class="text w-100">
+                              <button type="button" class="close" data-dismiss="modal" aria-hidden="true">X</button>
+                                <h2>Welcome to login</h2>
+                                <p>I have an account?</p>
+                                <a href="#" data-toggle="modal" data-target="#loginModal" class="btn btn-white btn-outline-white">Sign In</a>
+                            </div>
+                  </div>
+                  <div class="login-wrap p-4 p-lg-5">
+                    <div class="d-flex">
+                        <div class="w-100">
+                            <h3 class="mb-4">Register</h3>
+                        </div>
+                    </div>
+                            <form action="#" class="signin-form">
+                        <div class="form-group mb-3">
+                            <!-- <label class="label" for="name">Username</label> -->
+                            <input type="text" class="form-control" placeholder="Username" required>
+                        </div>
+                        <div class="form-group mb-3">
+                            <!-- <label class="label" for="name">Email User</label> -->
+                            <input type="email" class="form-control" placeholder="Username" required>
+                        </div>
+                    <div class="form-group mb-3">
+                        <!-- <label class="label" for="password">Password</label> -->
+                      <input type="password" class="form-control" placeholder="Password" required>
+                    </div>
+                    <div class="form-group mb-3">
+                        <!-- <label class="label" for="password">Confirm Password</label> -->
+                      <input type="password" class="form-control" placeholder="Confirm Password" required>
+                    </div>
+                    <div class="form-group">
+                        <button type="submit" class="form-control btn btn-primary submit px-3">Create Account</button>
+                    </div>
+                    
+                  </form>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        </div>
+    </div>
+  </div>
+  <!-- ======= Modal section ======= -->
+
+  <main id="main">
+
+    <!-- ======= Breadcrumbs ======= -->
+    <section id="breadcrumbs" class="breadcrumbs">
+      <div class="container">
+
+        <div class="d-flex justify-content-between align-items-center">
+          <h2>About</h2>
+          <ol>
+            <li><a href="index.html">Home</a></li>
+            <li>About</li>
+          </ol>
+        </div>
+
+      </div>
+    </section><!-- End Breadcrumbs -->
+
+    <!-- ======= About Us Section ======= -->
+    <section id="about-us" class="about-us">
+      <div class="container" data-aos="fade-up">
+
+        <div class="section-title">
+          <h2>About Us</strong></h2>
+        </div>
+
+        <div class="row content">
+          <div class="col-lg-6" data-aos="fade-right">
+            <h2>The Lorem ipsum text is derived from sections</h2>
+            <h3>The relevant section of Cicero as printed in the source is reproduced below with fragments used in Lorem ipsum underlined.</h3>
+          </div>
+          <div class="col-lg-6 pt-4 pt-lg-0" data-aos="fade-left">
+            <p>
+              Sed ut perspiciatis, unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam eaque ipsa, quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt, explicabo. Nemo enim ipsam voluptatem, quia voluptas sit, aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos,
+            </p>
+            <ul>
+              <li><i class="ri-check-double-line"></i>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</li>
+              <li><i class="ri-check-double-line"></i>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</li>
+              <li><i class="ri-check-double-line"></i>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</li>
+            </ul>
+            <p class="font-italic">
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore
+              magna aliqua.
+            </p>
+          </div>
+        </div>
+
+      </div>
+    </section><!-- End About Us Section -->
+
+    <!-- ======= Our Team Section ======= -->
+    <section id="product" class="product section-bg">
+      <div class="section-title">
+          <h2>Our Product</h2>
+        </div>
+     <div class="container">
+    <div class="row" id="ads">
+      <!-- Category Card -->
+      <div class="col-md-4 productMT">
+          <div class="card rounded">
+              <div class="card-image">
+                  <span class="card-notify-badge">20% off</span>
+                  <span class="card-notify-year">Buy</span>
+                  <img class="img-fluid img-paddi" src="assets/img/portfolio/pdf.png" alt="Alternate Text" />
+              </div>
+              <div class="card-image-overlay m-auto">
+                  <span class="card-detail-badge">Video & book</span>
+              </div>
+              <div class="card-body text-center">
+                  <div class="ad-title m-auto">
+                      <h5>Python Tutorial</h5>
+                  </div>
+                  <a class="ad-btn" href="#">View</a>
+              </div>
+          </div>
+      </div>
+      <div class="col-md-4 productMT">
+          <div class="card rounded">
+              <div class="card-image">
+                  <span class="card-notify-badge">20% off</span>
+                  <span class="card-notify-year">Buy</span>
+                  <img class="img-fluid img-paddi" src="assets/img/portfolio/pdf.png" alt="Alternate Text" />
+              </div>
+              <div class="card-image-overlay m-auto">
+                  <span class="card-detail-badge">Video & book</span>
+              </div>
+              <div class="card-body text-center">
+                  <div class="ad-title m-auto">
+                      <h5>Java Book</h5>
+                  </div>
+                  <a class="ad-btn" href="#">View</a>
+              </div>
+          </div>
+      </div>
+
+      <div class="col-md-4 productMT">
+          <div class="card rounded">
+              <div class="card-image">
+                  <span class="card-notify-badge">20% off</span>
+                  <span class="card-notify-year">Buy</span>
+                  <img class="img-fluid img-paddi" src="assets/img/portfolio/pdf.png" alt="Alternate Text" />
+              </div>
+              <div class="card-image-overlay m-auto">
+                  <span class="card-detail-badge">Video & book</span>
+              </div>
+              <div class="card-body text-center">
+                  <div class="ad-title m-auto">
+                      <h5>Hindi Book</h5>
+                  </div>
+                  <a class="ad-btn" href="#">View</a>
+              </div>
+          </div>
+      </div>
+    </div>  
+    </section><!-- End Our Team Section -->
+
+    <!-- ======= Our Clients Section ======= -->
+    <section id="clients" class="clients">
+      <div class="container" data-aos="fade-up">
+
+        <div class="section-title">
+          <h2>Upcoming News</h2>
+        </div>
+
+        <div class="row no-gutters clients-wrap clearfix" data-aos="fade-up">
+
+          <div class="col-lg-3 col-md-4 col-6">
+            <div class="client-logo">
+              <img src="assets/img/clients/client-1.png" class="img-fluid" alt="">
+            </div>
+          </div>
+
+          <div class="col-lg-3 col-md-4 col-6">
+            <div class="client-logo">
+              <img src="assets/img/clients/client-2.png" class="img-fluid" alt="">
+            </div>
+          </div>
+
+          <div class="col-lg-3 col-md-4 col-6">
+            <div class="client-logo">
+              <img src="assets/img/clients/client-3.png" class="img-fluid" alt="">
+            </div>
+          </div>
+
+          <div class="col-lg-3 col-md-4 col-6">
+            <div class="client-logo">
+              <img src="assets/img/clients/client-4.png" class="img-fluid" alt="">
+            </div>
+          </div>
+
+          <div class="col-lg-3 col-md-4 col-6">
+            <div class="client-logo">
+              <img src="assets/img/clients/client-5.png" class="img-fluid" alt="">
+            </div>
+          </div>
+
+          <div class="col-lg-3 col-md-4 col-6">
+            <div class="client-logo">
+              <img src="assets/img/clients/client-6.png" class="img-fluid" alt="">
+            </div>
+          </div>
+
+          <div class="col-lg-3 col-md-4 col-6">
+            <div class="client-logo">
+              <img src="assets/img/clients/client-7.png" class="img-fluid" alt="">
+            </div>
+          </div>
+
+          <div class="col-lg-3 col-md-4 col-6">
+            <div class="client-logo">
+              <img src="assets/img/clients/client-8.png" class="img-fluid" alt="">
+            </div>
+          </div>
+
+        </div>
+
+      </div>
+    </section><!-- End Our Clients Section -->
+
+  </main><!-- End #main -->
+
+  <!-- ======= Footer ======= -->
+  <footer id="footer">
+    <div class="footer-top">
+      <div class="container-fluid">
+        <div class="row">
+          <div class="col-lg-2 col-md-6 footer-contact">
+            <h3>Company</h3>
+            <p>
+              krishna Tower <br>
+              indore, 452016<br>
+              India <br><br>
+              <strong>Phone:</strong> +11111 11111<br>
+              <strong>Email:</strong> info@example.com<br>
+            </p>
+          </div>
+          <div class="col-lg-4 col-md-6 footer-links">
+            <h4>Useful Links</h4>
+            <div class="row">
+            <div class="col-6">
+            <ul>
+              <li><i class="bx bx-chevron-right"></i> <a href="#">Home</a></li>
+              <li><i class="bx bx-chevron-right"></i> <a href="#">About us</a></li>
+              <li><i class="bx bx-chevron-right"></i> <a href="#">Release Notes</a></li>
+              <li><i class="bx bx-chevron-right"></i> <a href="#">Video</a></li>
+              <li><i class="bx bx-chevron-right"></i> <a href="#">Download</a></li>
+              <li><i class="bx bx-chevron-right"></i> <a href="#">Priceing</a></li>
+            </ul>
+            </div>
+            <div class="col-6">
+            <ul>
+              <li><i class="bx bx-chevron-right"></i> <a href="#">FAQ</a></li>
+              <li><i class="bx bx-chevron-right"></i> <a href="#">Blog</a></li>
+              <li><i class="bx bx-chevron-right"></i> <a href="#">Contact</a></li>
+              <li><i class="bx bx-chevron-right"></i> <a href="#">Terms of service</a></li>
+              <li><i class="bx bx-chevron-right"></i> <a href="#">Privacy policy</a></li>
+            </ul>
+            </div>
+            </div>
+          </div>
+          <div class="col-lg-2 col-md-6 footer-links">
+            <h4>Our Services</h4>
+            <ul>
+              <li><i class="bx bx-chevron-right"></i> <a href="#">Product Management</a></li>
+              <li><i class="bx bx-chevron-right"></i> <a href="#">Marketing</a></li>
+            </ul>
+          </div>
+          <div class="col-lg-4 col-md-6 footer-newsletter">
+            <h4>Join Our Newsletter</h4>
+            <p>The Lorem ipsum text is derived from sections</p>
+            <form action="" method="post">
+              <input type="email" name="email"><input type="submit" value="Subscribe">
+            </form>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="container d-md-flex py-4">
+      <div class="mr-md-auto text-center text-md-left">
+        <div class="copyright">
+          &copy; Copyright <strong><span>Company</span></strong>. All Rights Reserved
+        </div>
+        <div class="credits">
+          Designed by <a href="#">XYZ</a>
+        </div>
+      </div>
+      <div class="social-links text-center text-md-right pt-3 pt-md-0">
+        <a href="#" class="twitter"><i class="bx bxl-twitter"></i></a>
+        <a href="#" class="facebook"><i class="bx bxl-facebook"></i></a>
+        <a href="#" class="instagram"><i class="bx bxl-instagram"></i></a>
+        <a href="#" class="google-plus"><i class="bx bxl-skype"></i></a>
+        <a href="#" class="linkedin"><i class="bx bxl-linkedin"></i></a>
+      </div>
+    </div>
+  </footer><!-- End Footer -->
+
+  <a href="#" class="back-to-top"><i class="icofont-simple-up"></i></a>
+
+  <!-- Vendor JS Files -->
+  <script src="assets/vendor/jquery/jquery.min.js"></script>
+  <script src="assets/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+  <script src="assets/vendor/jquery.easing/jquery.easing.min.js"></script>
+  <script src="assets/vendor/php-email-form/validate.js"></script>
+  <script src="assets/vendor/jquery-sticky/jquery.sticky.js"></script>
+  <script src="assets/vendor/isotope-layout/isotope.pkgd.min.js"></script>
+  <script src="assets/vendor/venobox/venobox.min.js"></script>
+  <script src="assets/vendor/waypoints/jquery.waypoints.min.js"></script>
+  <script src="assets/vendor/owl.carousel/owl.carousel.min.js"></script>
+  <script src="assets/vendor/aos/aos.js"></script>
+
+  <!-- Template Main JS File -->
+  <script src="assets/js/main.js"></script>
+  <script type="text/javascript">
+   $(function() {
+  return $(".modal").on("show.bs.modal", function() {
+    var curModal;
+    curModal = this;
+    $(".modal").each(function() {
+      if (this !== curModal) {
+        $(this).modal("hide");
+      }
+    });
+  });
+});
+  </script>
+  <script type="text/javascript">
+    jQuery(document).ready(function($) {
+   $('.getPdf"]')
+        .attr('download', '')
+        .attr('target', '_blank'); 
+});
+  </script>
+<script>
+// $(".signIN").on("click", function(){
+//   $(".mobile-nav-toggle").toggle('click');
+// });
+</script>
+</body>
+
