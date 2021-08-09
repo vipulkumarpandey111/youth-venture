@@ -2402,3 +2402,6 @@ button.close {
 .dropdown-toggle::after {
     border-top: none !important;
   }
+  .logo:hover{
+    cursor: pointer;
+  }
