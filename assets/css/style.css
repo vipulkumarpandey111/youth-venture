@@ -2103,11 +2103,13 @@ input[type=email]:focus:not([readonly]){
     color: #ffffff;
     overflow: hidden;
 }
-.overlay{background-color:#212529;width:100%;top:0;left:0;opacity:.6}
+.overlay{background-color:#212529;width:100%;top:0;left:0;}
 .tophead{
     margin-top: 150px;
   
 }
+.carousel_opacity{opacity: .6;}
+
 .title-main{
     /*font-size: 50px;
     font-weight: bold;*/
@@ -2156,6 +2158,13 @@ margin-top: 5px;
 .top-btn-block a{
   margin: 0 7px 0 0;
 }
+
+.btn-primary:hover, .btn-primary:focus, .btn-primary:active, .btn-primary.active, .open>.dropdown-toggle.btn-primary {
+  color: rgb(49, 65, 209);
+  background-color: #f1f1f1;
+  border-color: #285e8e; /*set the color you want here*/
+}
+
 a.btn-explore,a.btn-account,.btn-view {
     background: #5cb7ed;
     padding: 10px 10px;
@@ -2166,14 +2175,36 @@ a.btn-explore,a.btn-account,.btn-view {
     box-shadow: 3px 2px 3px 0 #33333345;
 }
 .caption{
-  margin: 5px 5px 5px 5px;
-  background-color: #6b756da3;
+  background-color: #3b6c83a3;
   border-radius: 10px;
   padding: 20px;
-  padding-left: 2px;
-  padding-right: 2px;
   
 }
+
+.carousel-caption {
+  width: 40%;
+  left: 15%;
+  top: 60% !important;
+  transform: translateY(-50%);
+  text-align: left;
+  bottom: initial;
+  }
+
+ @media (max-width : 1104px){
+  .carousel-caption {
+    width: 70%;
+    left: 15%;
+    top: 60% !important;
+    transform: translateY(-50%);
+    text-align: left;
+    bottom: initial;
+    }
+ } 
+
+
+
+
+
 a.btn-explore:hover,a.btn-account:hover,.btn-view:hover {
     background: #fff;
     color: #5cb7ed;
@@ -2414,3 +2445,45 @@ button.close {
   .logo:hover{
     cursor: pointer;
   }
+
+
+  @media (max-width : 643px){
+    .h1, h1 {
+      font-size: 1.2rem;
+     }
+     .subtitle-main {
+      font-size: 0.9rem;
+      font-weight: 300;
+      line-height: 1.5em;
+     }
+     .btn-group-lg>.btn, .btn-lg {
+      padding: .2rem 0.1rem;
+      font-size: 0.9rem;
+      line-height: 1.5;
+      border-radius: .3rem;
+    }
+    #desc{
+      margin-bottom: 5px;
+    }
+   } 
+
+   
+  @media (max-width : 435px){
+    .h1, h1 {
+      font-size: 0.9rem;
+     }
+     .subtitle-main {
+      font-size: 0.5rem;
+      font-weight: 300;
+      line-height: 1.5em;
+     }
+     .btn-group-lg>.btn, .btn-lg {
+      padding: .1rem 0.09rem;
+      font-size: 0.5rem;
+      line-height: 1.5;
+      border-radius: .3rem;
+    }
+    #desc{
+      margin-bottom: 0px;
+    }
+   } 
