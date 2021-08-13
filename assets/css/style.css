@@ -206,7 +206,7 @@ h1, h2, h3, h4, h5, h6 {
 .mobile-nav-toggle {
   position: fixed;
   right: 15px;
-  top: 6vh;
+  top: 35px;
   z-index: 9998;
   border: 0;
   background: none;
@@ -2523,4 +2523,60 @@ button.close {
   left: 0;
   z-index: 1030;
 
+}
+
+#header .logo {
+  font-size: 28px;
+  margin: 0;
+  padding: 0;
+  line-height: 1;
+  font-weight: 700;
+  letter-spacing: 0.5px;
+  text-transform: uppercase;
+  width: 12%;
+}
+@media (max-width : 1181px) {
+  #header .logo {
+    width: 14%;
+  }
+}
+@media (max-width : 1030px) {
+  #header .logo {
+    width: 16%;
+  }
+}
+@media (max-width : 835px) {
+  #header .logo {
+    width: 18%;
+  }
+}
+@media (max-width : 706px) {
+  #header .logo {
+    width: 21%;
+  }
+}
+@media (max-width :603px) {
+  #header .logo {
+    width:24%;
+  }
+}
+@media (max-width :550px) {
+  #header .logo {
+    width:28%;
+  }
+}
+@media (max-width :500px) {
+  #header .logo {
+    width:32%;
+  }
+}
+@media (max-width :450px) {
+  #header .logo {
+    width:36%;
+  }
+}
+@media (max-width :380px) {
+  #header .logo {
+    width:45%;
+  }
 }
