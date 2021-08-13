@@ -58,7 +58,8 @@ h1, h2, h3, h4, h5, h6 {
 # Header
 --------------------------------------------------------------*/
 #header {
-  background: #fff;
+  height: 14vh;
+  background:white;
   transition: all 0.5s;
   z-index: 997;
   padding: 0 0;
@@ -2096,11 +2097,11 @@ input[type=email]:focus:not([readonly]){
 }
 #home{
     width: 100%;
-    
     /* background: url('../img/information.jpg') no-repeat center center; */
+    padding-top: 0px;
     background-size:contain;
     position: relative;
-    color: #ffffff;
+    color: white;
     overflow: hidden;
 }
 .overlay{background-color:#212529;width:100%;top:0;left:0;}
@@ -2511,4 +2512,15 @@ button.close {
     width : 340px ;
     height: 240px;
   }
+}
+.fixed{
+  
+  height: 14vh;
+  background:white;
+  position: fixed;
+  top: 0;
+  right: 0;
+  left: 0;
+  z-index: 1030;
+
 }
