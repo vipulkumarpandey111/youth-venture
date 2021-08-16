@@ -614,7 +614,8 @@ section {
   text-align: center;
   padding: 70px 20px 80px 20px;
   transition: all ease-in-out 0.3s;
-  background: #fff;
+  background: linear-gradient(to bottom, #077ea685 0px, #99fffa30 100%);
+  border-radius: 25px;
 }
 
 .information .icon-box .icon {
@@ -762,7 +763,7 @@ section {
 .clients .client-logo img {
   transition: all 0.3s ease-in-out;
   height: 36px;
-  filter: grayscale(100%);
+  /* filter: grayscale(100%); */
 }
 
 .clients .client-logo:hover img {
