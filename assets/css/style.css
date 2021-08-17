@@ -2581,3 +2581,23 @@ button.close {
     width:45%;
   }
 }
+
+#col1{
+  background-image: url('../../Image/card2.jpg');
+   background-size:cover;
+   background-position: center; 
+  background-repeat: no-repeat;
+  opacity: 0.8;
+}
+#col2{
+  background-image: url('../../Image/azamat-e-eb1cgnNIazI-unsplash.jpg');
+   background-size:cover;
+   background-position: center; 
+  background-repeat: no-repeat;
+}
+#col3{
+  background-image: url('../../Image/1892783.jpg');
+   background-size:cover;
+   background-position: center; 
+  background-repeat: no-repeat;
+}
