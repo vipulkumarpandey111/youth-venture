@@ -614,8 +614,20 @@ section {
   text-align: center;
   padding: 70px 20px 80px 20px;
   transition: all ease-in-out 0.3s;
-  background: linear-gradient(to bottom, #077ea685 0px, #99fffa30 100%);
+  background: linear-gradient(to bottom, rgb(121 182 203) 100px, #0b0b0cc9 100%);
   border-radius: 25px;
+}
+.information .icon-box:hover {
+  transform: translateY(-30px);
+  transition: 0.4s ease-out;
+}
+
+@media(max-width: 978px)
+{
+  .information .icon-box:hover {
+    transform: translateY(-15px);
+    transition: 0.4s ease-out;
+  }
 }
 
 .information .icon-box .icon {
