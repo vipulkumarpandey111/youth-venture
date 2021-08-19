@@ -34,27 +34,33 @@
 <body>
 
    <!-- ======= Header ======= -->
- <header id="header" class="fixed-top">
-    <div class="container-fluid d-flex align-items-center">
+   <header id="header">
+    <div class="fixed-top fixed container-fluid d-flex align-items-center">
       <!-- <h1 class="logo mr-auto">
         <a href="index.html"><span>Com</span>pany</a></h1> -->
-        <img src="assets/img/logo.png" class="img-fluid logo mr-auto">
-      <nav class="nav-menu d-none d-lg-block">
-        <ul>
-          <li class="active"><a href="index.html" class="pt-2">Home</a></li>
-          <li><a href="about.html" class="pt-2">About Us</a></li>
-          <li><a href="video.html" class="pt-2">Video</a></li>
-          <li><a href="information.html" class="pt-2">Release Note</a></li>
-          <li><a href="pricing.html" class="pt-2">Pricing</a></li>
-          <li><a href="FAQ.html" class="pt-2">FAQ</a></li>
-          <li><a href="blog.html" class="pt-2">Blog</a></li>
-          <li><a href="contact.html" class="pt-2">Contact</a></li>
-          <li><a href="Downloads.html" class="pt-2">Download</a></li>
-          <li><a href="#" data-toggle="modal" data-target="#loginModal" class="btn-account ">Sign In</a></li>
-          <li><a href="assets/pdf/sample.pdf" download class="btn-account getPdf">Get PDF</a></li>
+        <img src="assets/img/next.png" class="img-fluid logo mr-auto tyv"  onclick="location.href = 'index.html';" >
+        <nav class="nav-menu d-none d-lg-block">
+          <ul>
+            <li ><a href="index.html" class="btn-account pt-2">Home</a></li>
+            <li><a href="about.html" class=" btn-account pt-2">About Us</a></li>
+            <li><a href="process.html" class="btn-account pt-2">Process</a></li>
+            <li class="drop-down " style="margin-top: -3px;">
+              <a class="pt-2 dropdown-toggle btn-account " id="product-pd">Product</a>
+              <ul class="dropdown-menu">
+                <li><a href="video.html" >Encrypt Video</a></li>
+              </ul>
+            </li>
+            <li class="hide"><a href="information.html" class="pt-2">Release Note</a></li>
+            <li class="hide"><a href="pricing.html" class="pt-2">Pricing</a></li>
+            <li><a href="FAQ.html" class="pt-2 btn-account ">FAQ</a></li>
+            <li class="hide"><a href="blog.html" class="pt-2">Blog</a></li>
+            <li><a href="contact.html" class="pt-2 btn-account ">Contact</a></li>
+            <li class="hide"><a href="Downloads.html" class="pt-2">Download</a></li>
+            <li class="hide"><a href="#" data-toggle="modal" data-target="#loginModal" class="btn-account ">Sign In</a></li>
+            <li class="hide"><a href="assets/pdf/sample.pdf" download class="btn-account getPdf">Get PDF</a></li>
 
-        </ul>
-      </nav><!-- .nav-menu -->
+          </ul>
+        </nav><!-- .nav-menu -->
     </div>
  </header>
  <!-- End Header -->
