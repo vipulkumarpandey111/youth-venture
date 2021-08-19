@@ -1,5 +1,6 @@
 body {
-  font-family: "Open Sans", sans-serif;
+  /* font-family: "Open Sans", sans-serif; */
+  font-family: 'Playfair Display', serif;
   color: #4d4643;
 }
 a {
@@ -12,7 +13,8 @@ a:hover {
 }
 
 h1, h2, h3, h4, h5, h6 {
-  font-family: "Roboto", sans-serif;
+  /* font-family: "Roboto", sans-serif; */
+  font-family: 'Playfair Display', serif;
 }
 
 /*--------------------------------------------------------------
@@ -112,16 +114,22 @@ h1, h2, h3, h4, h5, h6 {
 .nav-menu a {
   display: block;
   position: relative;
-  color: #111;
+  color: rgb(9, 24, 163);
   transition: 0.3s;
-  font-size: 13px;
+  font-size: 14px;
   text-transform: uppercase;
-  font-weight: 600;
+  font-weight: bold;
   font-family: "Roboto", sans-serif;
+ 
+}
+
+.btn-account{
+  background-color: #ccddff9c;
 }
 
 .nav-menu a:hover, .nav-menu .active > a, .nav-menu li:hover > a {
-  color: #5cb7ed;
+  
+  color: #0251a0;
 }
 
 .nav-menu .drop-down ul {
@@ -2147,6 +2155,7 @@ a.btn-explore, a.btn-account, .btn-view {
 a.btn-account{
 margin-left: 14px;
 margin-top: 5px;
+
 }
 .text-wrap, .login-wrap {
      width: 100% !important ; 
@@ -2180,14 +2189,15 @@ margin-top: 5px;
 }
 
 a.btn-explore,a.btn-account,.btn-view {
-    background: #5cb7ed;
+    background: #d4e2ff;
     padding: 10px 10px;
-    color: #fff;
+    color: rgb(3, 3, 3);
     text-align: center;
-    width: 100px;
+    /* width: 90px; */
     border-radius: 5px;
-    box-shadow: 3px 2px 3px 0 #33333345;
+    /* box-shadow: 3px 2px 3px 0 #33333345; */
 }
+
 .caption{
   background-color: #3b6c83a3;
   border-radius: 10px;
@@ -2529,7 +2539,8 @@ button.close {
 .fixed{
   
   height: 14vh;
-  background:white;
+  background:#dae6ff;
+  opacity: 0.8;
   position: fixed;
   top: 0;
   right: 0;
@@ -2548,6 +2559,11 @@ button.close {
   text-transform: uppercase;
   width: 12%;
 }
+
+#product-pd{
+  /* padding: 20px 100px 10px 20px; */
+}
+
 @media (max-width : 1181px) {
   #header .logo {
     width: 14%;
