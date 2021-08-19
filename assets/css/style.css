@@ -1966,7 +1966,7 @@ section {
 
 #footer .footer-top {
   padding: 60px 0 30px 0;
-  background: #1e1e1e;
+  background-image: linear-gradient(to bottom right, rgb(15, 101, 141), rgb(182, 220, 228));
 }
 
 #footer .footer-top .footer-contact {
