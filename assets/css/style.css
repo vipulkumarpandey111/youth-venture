@@ -622,7 +622,7 @@ section {
   text-align: center;
   padding: 70px 20px 80px 20px;
   transition: all ease-in-out 0.3s;
-  background: linear-gradient(to bottom, rgb(121 182 203) 100px, #0b0b0cc9 100%);
+  background-image: linear-gradient(to bottom right, rgb(15, 101, 141), rgb(182, 220, 228));
   border-radius: 25px;
 }
 .information .icon-box:hover {
@@ -2643,7 +2643,7 @@ button.close {
   min-height: 100%;
 }
 .image {
-  margin-top: 23%;
+  margin-top: 30%;
   perspective: 20000px;
   width: 50%;
   height: 500px;
@@ -2657,15 +2657,15 @@ button.close {
   border-radius: 30px;
   width: 700px;
   height: 400px;
-  transform: rotateX(70deg) rotateZ(-60deg) translate3d(-120px, 0px, 70px);
+  /* transform: rotateX(70deg) rotateZ(-60deg) translate3d(-120px, 0px, 70px);
   box-shadow: -80px 60px 15px 5px rgba(0,0,0,0.4);
   transition: all 1s;
-  transform-style: preserve-3d;
+  transform-style: preserve-3d; */
 }
-.image:hover img {
+/* .image:hover img {
   transform: rotateX(0deg) rotateZ(0deg) translate3d(0px, 0px, 0px);
   box-shadow: 0px 0px 0px 0px rgba(0,0,0,0.0);
-}
+} */
 @media (max-width : 1251px) {
   #ppt{
     width: 100%;
@@ -2687,10 +2687,10 @@ button.close {
     border-radius: 30px;
     width: 700px;
     height: 400px;
-    transform: rotateX(70deg) rotateZ(-60deg) translate3d(-120px, 0px, 70px);
+    /* transform: rotateX(70deg) rotateZ(-60deg) translate3d(-120px, 0px, 70px);
     box-shadow: -80px 60px 15px 5px rgba(0,0,0,0.4);
     transition: all 1s;
-    transform-style: preserve-3d;
+    transform-style: preserve-3d; */
   }
 
 }
