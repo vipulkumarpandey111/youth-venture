@@ -1,6 +1,6 @@
 body {
   /* font-family: "Open Sans", sans-serif; */
-  font-family: 'Playfair Display', serif;
+  font-family: 'Roboto', sans-serif;
   color: #4d4643;
 }
 a {
@@ -2539,8 +2539,8 @@ button.close {
 .fixed{
   
   height: 14vh;
-  background:#dae6ff;
-  opacity: 0.8;
+  background:#ffffff;
+  /* opacity: 0.8; */
   position: fixed;
   top: 0;
   right: 0;
