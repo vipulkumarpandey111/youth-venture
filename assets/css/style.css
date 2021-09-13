@@ -634,7 +634,7 @@ section {
   text-align: center;
   padding: 70px 20px 80px 20px;
   transition: all ease-in-out 0.3s;
-  background-image: linear-gradient(to bottom right, #42afee, rgb(182, 220, 228));
+  background-image: linear-gradient(to bottom right,#0f658d,#b6dce4);
   border-radius: 25px;
   box-shadow: 10px 10px #888888;
 }
@@ -2486,7 +2486,7 @@ button.close {
 
   @media (max-width : 643px){
     .h1, h1 {
-      font-size: 1.2rem;
+      font-size: 1.5rem;
      }
      .subtitle-main {
       font-size: 0.9rem;
@@ -2507,10 +2507,10 @@ button.close {
    
   @media (max-width : 435px){
     .h1, h1 {
-      font-size: 0.9rem;
+      font-size: 1.2rem;
      }
      .subtitle-main {
-      font-size: 0.5rem;
+      /* font-size: 0.5rem; */
       font-weight: 300;
       line-height: 1.5em;
      }
@@ -2944,12 +2944,12 @@ body {
 
 h1:first-of-type {
   font-weight: var(--weight1);
-  /* color: var(--varyDarkBlue); */
+  color: black;
 
 }
 
 h1:last-of-type {
-  /* color: var(--varyDarkBlue); */
+  color: black;
 }
 
 @media (max-width: 400px) {
@@ -2973,8 +2973,9 @@ h1:last-of-type {
 
 
 .box p {
-  color: var(--grayishBlue);
+  color: black;
 }
+
 
 .box {
   border-radius: 5px;
@@ -3166,5 +3167,37 @@ h2 {
   background-color: #f7f5ec;
 }
 
+
+.d-btn {
+  background-color: rgb(90, 151, 212);
+  border: none;
+  color: white;
+  padding: 9px 11px;
+  cursor: pointer;
+  font-size: 20px;
+  border-radius: 22px;
+}
+
+/* Darker background on mouse-over */
+.d-btn:hover {
+  background-color: RoyalBlue;
+  color: white;
+}
+
+
+p {
+  margin-top: 0;
+  margin-bottom: 1rem;
+  color: #111;
+}
+
+h2 {
+  color: hsl(0deg 0% 0%);
+    font-weight: var(--weight3);
+}
+
+#head-tyv{
+  color: #ffffff;
+}
 
 /**********************************************************************************************/
