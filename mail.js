@@ -15,7 +15,7 @@ function sendmail() {
         Host: 'smtp.gmail.com',
         Username: "demomessage.1234@gmail.com",
         Password: "The#Youth&Venture@2021",
-        To: ' Theyouthventure@gmail.com',
+        To: 'priyanshu.kr81@gmail.com',
         From: "demomessage.1234@gmail.com",
         Subject: "New message on contact from " + name,
         Body: Body
@@ -24,6 +24,7 @@ function sendmail() {
             // console.log (Body);
             if (message == 'OK') {
                 alert('Your mail has been send. Thank you for connecting.');
+                window.location = 'index.html';
             }
             else {
                 console.error(message);
