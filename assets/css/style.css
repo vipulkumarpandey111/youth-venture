@@ -124,7 +124,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 .btn-account{
-  background-color: #ccddff9c;
+  /* background-color: #ccddff9c; */
 }
 
 .nav-menu a:hover, .nav-menu .active > a, .nav-menu li:hover > a {
@@ -1979,7 +1979,7 @@ section {
 
 #footer .footer-top {
   padding: 60px 0 30px 0;
-  background-image: linear-gradient(to bottom right,#42afee, rgb(182, 220, 228));
+  background-image: linear-gradient(to bottom right,#42afee, rgb(59 99 232));
 }
 
 #footer .footer-top .footer-contact {
@@ -2202,7 +2202,8 @@ margin-top: 5px;
 }
 
 a.btn-explore,a.btn-account,.btn-view {
-    background: #d4e2ff;
+    /* background: #d4e2ff; */
+    font-family: "segoe-ui_normal";
     padding: 10px 10px;
     color: rgb(3, 3, 3);
     text-align: center;
@@ -2943,7 +2944,7 @@ body {
 }
 
 h1:first-of-type {
-  font-weight: var(--weight1);
+  /* font-weight: var(--weight1); */
   color: black;
 
 }
@@ -3198,6 +3199,13 @@ h2 {
 
 #head-tyv{
   color: #ffffff;
+}
+
+
+.rd-section{
+  font-family: 'Playfair Display', serif;
+  font-size: 38px;
+  font-weight: bold;
 }
 
 /**********************************************************************************************/
